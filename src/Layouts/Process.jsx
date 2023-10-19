@@ -18,7 +18,7 @@ export default function Process() {
     <>
       <section class="text-gray-600 mx-auto body-font">
         <div className="flex flex-col justify-center items-center">
-        <p className="flex text-cyan-600 pb-5 text-lg font-semibold">
+        <p className="flex text-cyan-600 pb-5 text-xl font-semibold">
             <HiMinus className="mt-1  "/>
            Process
           </p>
