@@ -10,7 +10,7 @@ export default function Solutions() {
             Our Solutions for
           </p>
           <div className="flex justify-between mb-3">
-            <h1 className="font-bold text-4xl">Your Most <span className="font-normal">Ideal Solutions </span> </h1>
+            <h1 className="font-bold text-4xl">Your Most <span className="font-normal italic">Ideal Solutions </span> </h1>
             <div className="flex w-1/2">
               <HiMinus size={68} className="transform rotate-90 text-cyan-600 -mt-2 -mr-3"/>
               <p>We could find you any property in a residential area, We could find you any property in an urban area</p>

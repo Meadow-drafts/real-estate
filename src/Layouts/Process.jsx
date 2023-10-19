@@ -1,5 +1,7 @@
 import { process } from "../data/proccessData";
 import { useState } from "react";
+import { HiArrowUp, HiMinus } from "react-icons/hi";
+
 
 export default function Process() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -15,7 +17,18 @@ export default function Process() {
   return (
     <>
       <section class="text-gray-600 mx-auto body-font">
+        <div className="flex flex-col justify-center items-center">
+        <p className="flex text-cyan-600 pb-5 text-lg font-semibold">
+            <HiMinus className="mt-1  "/>
+           Process
+          </p>
+          <h1 className="font-bold text-4xl text-black">Navigating the <span className="font-normal italic">Real Estate Journey </span> </h1>
+          <p>We could find you any property in a residential area, We could find you any property in an urban area</p>
+
+        </div>
+  
         <div class="container px-5 py-24 mx-auto  flex flex-wrap">
+       
           <div class="w-1/2 mb-10 lg:mb-0 mx-auto rounded-lg overflow-hidden">
             <img
               alt="feature"
