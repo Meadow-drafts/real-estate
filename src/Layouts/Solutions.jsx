@@ -1,10 +1,21 @@
 import { solutions } from "../data/solutionsData";
-import { HiArrowUp } from "react-icons/hi";
+import { HiArrowUp, HiMinus } from "react-icons/hi";
 export default function Solutions() {
   return (
     <>
       <section class="text-white  body-font">
         <div class="container rounded-lg my-20 px-5 py-24 mx-auto bg-neutral-800">
+          <p className="flex text-cyan-600 pb-5">
+            <HiMinus className="mt-1 mx-2 "/>
+            Our Solutions for
+          </p>
+          <div className="flex justify-between mb-3">
+            <h1 className="font-bold text-4xl">Your Most <span className="font-normal">Ideal Solutions </span> </h1>
+            <div className="flex w-1/2">
+              <HiMinus size={68} className="transform rotate-90 text-cyan-600 -mt-2 -mr-3"/>
+              <p>We could find you any property in a residential area, We could find you any property in an urban area</p>
+            </div>
+          </div>
           <div class="flex flex-wrap -m-4">
             {solutions.map((item, index) => (
               <div class="p-4 md:w-1/3 relative ">
