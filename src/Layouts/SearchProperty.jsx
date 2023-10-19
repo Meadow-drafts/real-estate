@@ -15,7 +15,7 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 export default function SearchProperty() {
   return (
     <>
-      <div className="container mx-auto bg-gray-100 px-5 py-24">
+      <div className="container rounded-lg mx-auto bg-gray-100 px-5 py-24">
         <h1 className="text-4xl font-medium py-5">
           Let's Find your <span className="text-cyan-600"> Dream House</span>{" "}
         </h1>
