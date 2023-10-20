@@ -10,6 +10,7 @@ import Testimonial from "../Layouts/Testimonial"
 import Followus from "../Layouts/FollowUs"
 import Blog from "../Layouts/Blog"
 import FAQ from "../Layouts/FAQ"
+import Footer from "../Layouts/Footer"
 
 export default function Home(){
     return(
@@ -26,6 +27,7 @@ export default function Home(){
         <Followus/>
         <Blog/>
         <FAQ/>
+        <Footer/>
         </>
     )
 }
