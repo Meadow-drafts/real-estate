@@ -6,6 +6,8 @@ import Process from "../Layouts/Process"
 import Popular from "../Layouts/Popular"
 import About from "../Layouts/About"
 import ExpertAgent from "../Layouts/ExpertAgents"
+import Testimonial from "../Layouts/Testimonial"
+import Followus from "../Layouts/FollowUs"
 
 export default function Home(){
     return(
@@ -18,6 +20,8 @@ export default function Home(){
         <Popular/>
         <About/>
         <ExpertAgent/>
+        <Testimonial/>
+        <Followus/>
         </>
     )
 }
