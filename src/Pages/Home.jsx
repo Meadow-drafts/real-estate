@@ -5,7 +5,7 @@ import Solutions from "../Layouts/Solutions"
 import Process from "../Layouts/Process"
 import Popular from "../Layouts/Popular"
 import About from "../Layouts/About"
-
+import ExpertAgent from "../Layouts/ExpertAgents"
 
 export default function Home(){
     return(
@@ -17,6 +17,7 @@ export default function Home(){
         <Process/>
         <Popular/>
         <About/>
+        <ExpertAgent/>
         </>
     )
 }
