@@ -4,18 +4,6 @@ Welcome to the Real Estate Website, a modern and user-friendly platform for buyi
 
 ![Real Estate Website](https://github.com/Meadow-drafts/real-estate/blob/main/real-estate.PNG)
 
-## Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - Property listing: View available properties with details.
