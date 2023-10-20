@@ -2,7 +2,7 @@
 
 Welcome to the Real Estate Website, a modern and user-friendly platform for buying, selling, and renting properties.
 
-![Real Estate Website](./screenshot.png)
+![Real Estate Website](https://github.com/Meadow-drafts/real-estate/blob/main/real-estate.PNG)
 
 ## Table of Contents
 
