@@ -51,8 +51,8 @@ export default function Testimonial() {
               <div>
                 <Slider ref={(sliderRef) => setSlider(sliderRef)} {...settings}>
                   {Testimonials.map((item, index) => (
-                    <div key={item.id} class="p-4 w-full">
-                      <div class="h-full bg-neutral-700 p-8 rounded">
+                    <div key={item.id} class="p-4 w-1/2">
+                      <div class="h-full bg-neutral-700 p-4 lg:p-20 lg:mx-8 mx-0 rounded">
                         <div className="flex mb-2">
                           <HiStar size={28} className="text-yellow-500" />
                           <HiStar size={28} className="text-yellow-500" />

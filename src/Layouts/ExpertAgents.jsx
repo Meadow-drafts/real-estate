@@ -31,9 +31,9 @@ export default function ExpertAgent(){
           </div>
         </div>
         <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap -m-4">
+          <div class="flex flex-wrap justify-center -m-4">
             {Agents.map((item,index) => (
-                 <div class="p-4 md:w-1/3">
+                 <div class="p-4 lg:p-24 md:p-10 lg:-m-20 m-0 md:w-1/3">
                  <div class="h-full border-8 border-white border-opacity-60 rounded-lg overflow-hidden">
                    <img
                      class="lg:h-48 rounded-t-lg md:h-36 w-full object-cover object-center"
