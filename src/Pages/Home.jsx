@@ -9,6 +9,7 @@ import ExpertAgent from "../Layouts/ExpertAgents"
 import Testimonial from "../Layouts/Testimonial"
 import Followus from "../Layouts/FollowUs"
 import Blog from "../Layouts/Blog"
+import FAQ from "../Layouts/FAQ"
 
 export default function Home(){
     return(
@@ -24,6 +25,7 @@ export default function Home(){
         <Testimonial/>
         <Followus/>
         <Blog/>
+        <FAQ/>
         </>
     )
 }

@@ -8,7 +8,7 @@ export default function Blog(){
     return(
         <>
          <section class="text-black  body-font">
-        <div class="container rounded-lg my-20 px-5 py-24 mx-auto ">
+        <div class="container rounded-lg mt-20 px-5 py-24 mx-auto ">
           <p className="flex text-cyan-600 pb-5">
             <HiMinus className="mt-1 mx-2 "/>
            Blog and News
