@@ -2,7 +2,7 @@ import { HiArrowUp, HiMinus } from "react-icons/hi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaBath, FaBed, FaRegObjectGroup } from "react-icons/fa";
 import { popular } from "../data/popularData";
-
+import { Link } from "react-router-dom";
 
 
 export default function Popular() {
@@ -20,12 +20,15 @@ export default function Popular() {
               <span className="font-normal italic">Property Deals </span>{" "}
             </h1>
             <div class=" ">
+              <Link to='/listings'>
               <button class="flex mx-auto rounded-md text-white bg-blue-500 border-0 py-3 px-8 focus:outline-none hover:bg-blue-600  text-sm">
                 View All Properties
                 <div class="transform rotate-45 mx-3">
                       <HiArrowUp className="text-white w-5 h-5" />
                     </div>
               </button>
+              </Link>
+             
             </div>
           </div>
         </div>
