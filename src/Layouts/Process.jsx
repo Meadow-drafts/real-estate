@@ -40,7 +40,7 @@ export default function Process() {
 
           <div class="  flex flex-col flex-wrap  py-6 -mb-10 lg:w-1/2  text-left">
             {process.map((item, index) => (
-              <div
+              <div 
                 className={`p-2 w-full relative 
                  
                 `}

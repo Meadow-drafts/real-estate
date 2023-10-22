@@ -1,8 +1,8 @@
 import { HiArrowUp, HiMinus, HiStar } from "react-icons/hi";
 import { FaBath, FaBed, FaRegObjectGroup } from "react-icons/fa";
 import { popular } from "../data/popularData";
-import { Agents } from "../data/agentsData";
-
+import { agents } from "../data/agentsData";
+import { Link } from "react-router-dom";
 
 
 export default function ExpertAgent(){
@@ -21,19 +21,22 @@ export default function ExpertAgent(){
               in Real Estate
             </h1>
             <div class=" ">
+              <Link to='/agents'>
               <button class="flex mx-auto rounded-md text-white bg-blue-500 border-0 py-3 px-8 focus:outline-none hover:bg-blue-600  text-sm">
                 View All Agents
                 <div class="transform rotate-45 mx-3">
                       <HiArrowUp className="text-white w-5 h-5" />
                     </div>
               </button>
+              </Link>
+              
             </div>
           </div>
         </div>
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap justify-center -m-4">
-            {Agents.map((item,index) => (
-                 <div class="p-4 lg:p-24 md:p-10 lg:-m-20 m-0 md:w-1/3">
+            {agents.map((item,index) => (
+                 <div key={item.id} class="p-4 lg:p-24 md:p-10 lg:-m-20 m-0 md:w-1/3">
                  <div class="h-full border-8 border-white border-opacity-60 rounded-lg overflow-hidden">
                    <img
                      class="lg:h-48 rounded-t-lg md:h-36 w-full object-cover object-center"

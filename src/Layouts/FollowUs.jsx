@@ -1,5 +1,4 @@
 import { HiArrowUp, HiMinus, HiStar } from "react-icons/hi";
-import { Agents } from "../data/agentsData";
 import {Houses} from '../data/housesData'
 import Slider from "react-slick";
 

@@ -18,7 +18,7 @@ export default function Solutions() {
           </div>
           <div class="flex flex-wrap -m-4">
             {solutions.map((item, index) => (
-              <div class="p-4 md:w-1/3 relative ">
+              <div key={item.id} class="p-4 md:w-1/3 relative ">
                 <div class="h-full bg-neutral-700  border-opacity-60 rounded-lg overflow-hidden">
                   <div class="p-4 ">
                     <h1 class="title-font text-lg font-medium ">
